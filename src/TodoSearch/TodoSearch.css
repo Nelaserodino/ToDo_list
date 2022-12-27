@@ -1,0 +1,28 @@
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.TodoSearch{
+    background: #2e5795;
+    height: 84px;
+    width: 70%;
+    border-radius: 50px 0 50px 0;
+    padding: 0;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+.TodoSearch::placeholder {
+    color: white;
+    font-family:'Anek Telugu', sans-serif;
+    font-weight: 400;
+}
+.TodoSearch:focus{
+    outline-color: #61dafa;
+}

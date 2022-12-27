@@ -1,0 +1,18 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h2{
+   margin-top: 50px;
+}
+ul{
+    margin: 40px 0px;
+    padding: 0 0 56px 0;
+    list-style: none;
+    width: 90%;
+}
+h1{
+    color: #c0e4c1;
+}
